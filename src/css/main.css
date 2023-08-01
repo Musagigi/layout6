@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+	/* body {
+		@apply text-dark;
+	}
+
+	h1,
+	h2 {
+		@apply text-4xl font-semibold;
+	}
+
+	a {
+		@apply text-[15px];
+	}
+
+	p,
+	input,
+	select,
+	label {
+		@apply text-[18px];
+	} */
+}
+
+@layer components {
+	/* .btn-main {
+		@apply p-[15px] text-[15px] rounded-[15px] cursor-pointer text-white bg-btnColor shadow-[0px_16px_36px] shadow-shadowColor
+		transition-all ease-in duration-[0.3s] hover:bg-bthColorHover hover:shadow-shadowColorHover;
+	}
+
+	.flex-jb-ic {
+		@apply flex justify-evenly items-center;
+	}
+
+	.padding-md {
+		@apply pb-[115px] pt-[200px] px-5;
+	}
+
+	.padding-sm {
+		@apply pb-[50px] pt-40 px-2.5;
+	} */
+}
