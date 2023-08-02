@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
 
 @layer base {
-	/* body {
-		@apply text-dark;
+	body {
+		@apply text-primary font-normal text-dark;
 	}
 
-	h1,
+	a {
+		@apply block leading-3;
+	}
+	/* h1,
 	h2 {
 		@apply text-4xl font-semibold;
 	}

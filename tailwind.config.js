@@ -5,25 +5,41 @@ module.exports = {
 	content: ["./src/**/*.html"],
 	theme: {
 		screens: {
-			sm: '320px',
-			md: '768px',
-			lg: '875px',
-			xl: '1152px',
+			'sm': '320px',
+			'md': '768px',
+			'lg': '1024px',
+			'xl': '1280px',
+			'2xl': '1435px',
 		},
 		container: {
 			center: true,
 			padding: {
-				DEFAULT: '1rem',
-				sm: '2rem',
-				lg: '4rem',
-				xl: '5rem',
-				'2xl': '6rem',
+				sm: '0.5rem',
+				md: '1rem',
 			},
 		},
 		fontFamily: {
-			sans: ['Roboto', 'sans-serif'],
+			sans: ['Rubik', 'sans-serif'],
+		},
+		colors: {
+			white: '#fff',
+			dark: '#262A2F',
+			orange: '#FF5533',
+			grey: '#868686',
+
 		},
 		extend: {
+			fontSize: {
+				'primary': '22px',
+			},
+			fontWeight: {
+				'normal': '400',
+				'medium': '700',
+				'bold': '900',
+			},
+			gridTemplateRows: {
+				'layout': 'auto 1fr auto',
+			},
 			backgroundImage: {
 				'about-section': 'url("/img/main/back.png")',
 				'promo-section': 'url("/img/main/promo.jpg")'
@@ -60,23 +76,6 @@ module.exports = {
 				emergenceRight: 'emergenceRight 1.5s ease-in-out 0s',
 				rotationSun: 'rotationSun 10s linear infinite'
 			}
-		},
-		colors: {
-			dark: '#213053',
-			white: '#fff',
-			darkWhite: '#E7EAF9',
-			darkBlue: '#1d263a',
-			btnColor: '#23a030',
-			bthColorHover: '#f6980c',
-			shadowColor: 'rgb(52,213,68,0.4)',
-			shadowColorHover: 'rgb(246,152,12,0.3)',
-			borderColor: '#D9E4E6',
-			bgFeatures: '#eaeff9',
-			bgFeaturesCardL: '#dc5e26',
-			bgFeaturesCardLShadow: 'rgb(221,95,38,0.3)',
-			bgFeaturesCardR: '#1D263A',
-			bgFeaturesCardRShadow: 'rgb(29,38,58,0.3)',
-			bgPromo: '#dd5f26',
 		},
 	},
 	plugins: [
