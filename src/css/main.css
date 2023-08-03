@@ -13,21 +13,14 @@
 	a {
 		@apply block leading-3;
 	}
-	/* h1,
+
+	h1 {
+		@apply text-[42px] leading-[50px] font-medium;
+	}
+
 	h2 {
-		@apply text-4xl font-semibold;
+		@apply text-xl font-medium leading-6;
 	}
-
-	a {
-		@apply text-[15px];
-	}
-
-	p,
-	input,
-	select,
-	label {
-		@apply text-[18px];
-	} */
 }
 
 @layer components {
