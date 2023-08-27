@@ -2,99 +2,34 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<script type="module" src="/js/main.js"></script>
-		<title>Солнечные батареи GreenCorp</title>
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/favicon.svg"
+		/>
+		<script
+			crossorigin
+			src="https://unpkg.com/react@17/umd/react.development.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+		></script>
+		<title>Новости</title>
 	</head>
 	<body class="overflow-x-hidden">
-		<div class="container max-2xl:max-w-none h-screen grid grid-rows-layout">
-			<header class="flex pt-9">
-				<div class="mr-[50px] shrink-0">
-					<img class="w-full h-[90px]" src="/img/logo.svg" alt="logo" />
-				</div>
-				<nav>
-					<ul class="flex gap-[60px] font-bold text-2xl">
-						<li><a class="hover:text-orange" href="#">главная</a></li>
-						<li><a class="hover:text-orange" href="#">мода</a></li>
-						<li><a class="hover:text-orange" href="#">технологии</a></li>
-						<li><a class="hover:text-orange" href="#">музыка</a></li>
-						<li><a class="hover:text-orange" href="#">karpov</a></li>
-					</ul>
-				</nav>
-			</header>
-
-			<main class="mt-[90px] flex justify-between gap-[90px]">
-				<section>
-					<ul>
-						<li>
-							<article class="flex flex-row-reverse gap-5">
-								<div
-									class="flex flex-col justify-between shrink grow-[3] basis-2/3"
-								>
-									<h1 class="text-[42px] leading-[50px] font-medium">
-										Отец жанра. Как уже забытый трип-хоп определяет самую
-										популяр…
-									</h1>
-									<span
-										class="text-sm leading-6 font-medium text-orange uppercase -order-1"
-										>технологии</span
-									>
-									<p class="leading-[26px] mt-8">
-										Новая мода на топовые наряды необычных цветов. В сезоне –
-										топики, шорты-боксеры, сланцы и сандалии. А также большие
-										солнечные очки и яркая шляпка.
-									</p>
-									<span
-										class="text-sm leading-none font-normal text-grey uppercase"
-										>источники</span
-									>
-								</div>
-								<div class="grow shrink-0 basis-1/3">
-									<img
-										class="block object-cover"
-										src="/img/marra1.jpg"
-										alt="article image"
-									/>
-								</div>
-							</article>
-						</li>
-						<li>
-							<article></article>
-						</li>
-						<li>
-							<article></article>
-						</li>
-					</ul>
-				</section>
-				<aside>
-					<ul>
-						<li>
-							<article class="border-l-8 pl-2">
-								<h2 class="">
-									В американском зоопарке празднуют рождение гориллы: видео
-								</h2>
-								<span
-									class="text-xl font-normal leading-6 text-orange uppercase"
-									>12 июля</span
-								>
-								<span
-									class="ml-1.5 text-xl font-normal leading-6 text-grey uppercase"
-									>источник</span
-								>
-							</article>
-						</li>
-					</ul>
-				</aside>
-			</main>
-
-			<footer>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-				inventore, aliquid atque nesciunt doloribus quod. Quaerat aliquam animi
-				eligendi dicta inventore nobis error minus labore. Animi ipsa saepe
-				beatae molestiae?
-			</footer>
-		</div>
+		<div id="root"></div>
+		<script
+			type="module"
+			src="./main.jsx"
+		></script>
 	</body>
 </html>

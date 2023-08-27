@@ -40,4 +40,24 @@
 	.padding-sm {
 		@apply pb-[50px] pt-40 px-2.5;
 	} */
+
+	#main-news-title,
+	#second-news-title {
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	#main-news-img {
+		@apply h-full;
+	}
+
+	#main-news-src {
+		@apply mt-2;
+	}
+}
+
+.nav-active:active {
+	color: red;
 }
